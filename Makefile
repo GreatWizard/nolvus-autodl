@@ -1,4 +1,4 @@
-NAME := nexus_autodl
+NAME := nolvus_autodl
 
 ifeq ($(OS),Windows_NT)
     PATHSEP := ;
