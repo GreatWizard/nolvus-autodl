@@ -81,7 +81,7 @@ def _find_and_click(templates: List[_Template]) -> None:
     logging.info('No matches found')
 
 
-# This responsible for retrieving and preparing template images that will be used for image matching within the Nexus AutoDL script.
+# This responsible for retrieving and preparing template images that will be used for image matching within the Nolvus AutoDL script.
 # basically retrieve a list of template images from the templates directory.
 def _get_templates() -> List[_Template]:  # pylint: disable=too-many-locals
     templates: List[_Template] = []  # Add the type annotation here
